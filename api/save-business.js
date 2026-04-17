@@ -38,8 +38,8 @@ export default async function handler(req, res) {
   }
 
   const ghToken = process.env.GITHUB_TOKEN;
-  const owner   = process.env.GITHUB_ORG || process.env.VERCEL_GIT_REPO_OWNER;
-  const repo    = process.env.VERCEL_GIT_REPO_SLUG;
+  const owner   = process.env.GITHUB_REPO_OWNER || process.env.GITHUB_ORG || process.env.VERCEL_GIT_REPO_OWNER;
+  const repo    = process.env.GITHUB_REPO || process.env.VERCEL_GIT_REPO_SLUG;
 
   if (!ghToken || !owner || !repo) {
     // Env not configured — fall back gracefully so caller downloads instead
