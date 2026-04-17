@@ -1,0 +1,8 @@
+{
+  "buildCommand": "pnpm run build",
+  "outputDirectory": "dist/client",
+  "installCommand": "pnpm install --frozen-lockfile",
+  "functions": {
+    "api/save-business.js": { "memory": 128, "maxDuration": 15 }
+  }
+}

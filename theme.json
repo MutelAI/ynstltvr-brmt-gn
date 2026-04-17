@@ -1,0 +1,10 @@
+{
+  "brand_personality": "אמין, נגיש, מקצועי וקרוב לקהילה — אינסטלטור שמבין את הצרכים המקומיים שלך וממלא תפקיד חיוני בביתך",
+  "primary_color": "blue",
+  "secondary_color": "sky",
+  "hero_gradient": "from-blue-900 via-blue-800 to-teal-900",
+  "contact_gradient": "from-blue-800 to-teal-700",
+  "font_heading": "Figtree",
+  "font_body": "Noto Sans",
+  "font_google_import": "@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700&family=Noto+Sans:wght@300;400;500;700&display=swap');"
+}
